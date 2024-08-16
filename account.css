@@ -1,0 +1,243 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    position: relative;
+
+}
+
+.nav {
+    width: 1200px;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    color: #3D3D3D;
+    align-items: center;
+
+}
+
+.nav>div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav>div>p>a {
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+.nav>div>span {
+
+    width: 29px;
+    height: 24px;
+    position: relative;
+}
+
+.nav>div>span>p {
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #46A358;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.nav>div>button {
+    width: 100px;
+    height: 35px;
+    color: white;
+    border-radius: 6px;
+    background-color: #46A358;
+    border: none;
+}
+
+.main {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card1 {
+    width: 310px;
+    height: 431px;
+    color: #3D3D3D;
+    background: #FBFBFB;
+}
+.part{
+    background-color: white;
+    width: 310px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #46A358;
+
+}
+.card1>div>p>a{
+    color: #727272;
+    text-decoration: none;
+}
+.part>pre{
+    background-color: #46A358;
+    width: 5px;
+    height: 49px;
+}
+.card1>h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card1>strong {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #46A358;
+    cursor: pointer;
+}
+
+.card1>div>p {
+    color: #727272;
+}
+
+.card1>pre {
+    width: 5px;
+    height: 39px;
+
+}
+
+.card1>div {
+    width: 310px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.card1>div:hover {
+    background-color: white;
+    color: #46A358;
+    transform: scale(1.0);
+
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 417px;
+}
+
+.card2>div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card2>div>p>sup {
+    color: #F03800;
+}
+
+.card2>div>input {
+    width: 417px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+}
+
+.card2>button {
+    width: 131px;
+    height: 40px;
+    color: white;
+    border-radius: 3px;
+    background-color: #46A358;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 417px;
+    margin-top: 33px;
+}
+
+.card3>div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card3>div>p>sup {
+    color: #F03800;
+}
+
+.card3>div>input {
+    width: 417px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+}
+
+.card3>div>span {
+    display: flex;
+    gap: 5px;
+}
+
+.card3>div>span>select {
+    width: 78px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #EAEAEA;
+}
+
+.card3>div>span>input {
+    width: 329px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+}
+
+.card3>span {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card3>span>button {
+    width: 98px;
+    height: 40px;
+    color: white;
+    border-radius: 3px;
+    background-color: #46A358;
+    border: none;
+    cursor: pointer;
+
+}
+
+.card3>span>p {
+    cursor: pointer;
+}
